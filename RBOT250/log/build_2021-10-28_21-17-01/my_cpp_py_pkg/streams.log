@@ -1,0 +1,47 @@
+[0.024s] Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+[0.093s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.107s] [  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[0.387s] running egg_info
+[0.388s] writing my_cpp_py_pkg.egg-info/PKG-INFO
+[0.388s] writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+[0.388s] writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+[0.392s] reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.393s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.434s] [ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[2.211s] In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[2.211s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[2.211s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+[2.211s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:8[m[K,
+[2.211s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[2.212s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:1[m[K:
+[2.212s] /usr/include/c++/9/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (FramePublisher::*)(), FramePublisher*, const std::_Placeholder<1>&>[m[K’:
+[2.212s] [01m[K/usr/include/c++/9/functional:787:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (FramePublisher::*)(), FramePublisher*, const std::_Placeholder<1>&>[m[K’
+[2.212s] [01m[K/usr/include/c++/9/functional:808:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (FramePublisher::*)(); _BoundArgs = {FramePublisher*, const std::_Placeholder<1>&}][m[K’
+[2.212s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:96:[m[K   required from here
+[2.212s] [01m[K/usr/include/c++/9/functional:775:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+[2.213s]   774 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+[2.213s]       |                               [01;31m[K~~~~~[m[K
+[2.213s]   775 | [01;31m[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+[2.213s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.213s]   776 | [01;31m[K      : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+[2.213s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.218s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[2.219s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFramePublisher::create_wall_timer(int, std::_Bind_helper<false, void (FramePublisher::*)(), FramePublisher*, const std::_Placeholder<1>&>::type)[m[K’
+[2.219s]    42 |     timer_ = this->create_wall_timer(50000, std::bind(&FramePublisher::timer_callback, this, _1)[01;31m[K)[m[K;
+[2.219s]       |                                                                                                 [01;31m[K^[m[K
+[2.219s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.219s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors.hpp:22[m[K,
+[2.219s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.220s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[2.220s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/node.hpp:237:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.220s]   237 |   [01;36m[Kcreate_wall_timer[m[K(
+[2.220s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.220s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/node.hpp:237:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.220s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:97:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[2.221s]    42 |     timer_ = this->create_wall_timer(50000, std::bind(&FramePublisher::timer_callback, this, _1)[01;36m[K)[m[K;
+[2.221s]       |                                                                                                 [01;36m[K^[m[K
+[3.526s] make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[3.526s] make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+[3.526s] make: *** [Makefile:141: all] Error 2
+[3.530s] Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4

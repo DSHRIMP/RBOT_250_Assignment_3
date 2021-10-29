@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found example_interfaces: 0.9.2 (/home/prts/ros2_galactic/ros2-linux/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli
+[35m[1mScanning dependencies of target client[0m
+[35m[1mScanning dependencies of target server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable server[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set runtime path of "/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.xml

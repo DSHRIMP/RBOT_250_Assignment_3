@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kmath: No such file or directory
+   11 | #include [01;31m[K<math>[m[K
+      |          [01;31m[K^~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing my_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+make: *** [Makefile:141: all] Error 2

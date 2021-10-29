@@ -1,0 +1,24 @@
+[0.044s] Invoking command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli': /usr/bin/cmake --build /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli -- -j4 -l4
+[0.154s] [ 50%] Built target client
+[0.156s] [100%] Built target server
+[0.184s] Invoked command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli' returned '0': /usr/bin/cmake --build /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli -- -j4 -l4
+[0.277s] Invoking command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli': /usr/bin/cmake --install /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli
+[0.291s] -- Install configuration: ""
+[0.291s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/server
+[0.292s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/client
+[0.293s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[0.293s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[0.294s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[0.294s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[0.294s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[0.295s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[0.295s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[0.295s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[0.295s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[0.295s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[0.295s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[0.296s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[0.296s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[0.296s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[0.296s] -- Up-to-date: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[0.300s] Invoked command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli' returned '0': /usr/bin/cmake --install /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli

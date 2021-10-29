@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)
+-- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+-- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+-- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+-- Found sensor_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/trajectory_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prts/RBOT250/src/build/my_cpp_py_pkg
+[35m[1mScanning dependencies of target cpp_executable[0m
+[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+running egg_info
+writing my_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:41:20:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   41 |   MinimalPublisher([01;31m[K)[m[K
+      |                    [01;31m[K^[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kint FramePublisher::MinimalPublisher()[m[K’:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   42 |     : [01;31m[KNode[m[K("minimal_publisher"), count_(0)
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:46:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   46 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:46:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ is not a class, namespace, or enumeration
+   46 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:47:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   47 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

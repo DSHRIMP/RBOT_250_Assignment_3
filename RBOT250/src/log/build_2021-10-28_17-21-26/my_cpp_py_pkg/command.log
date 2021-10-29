@@ -1,0 +1,6 @@
+Invoking command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg': /usr/bin/cmake /home/prts/RBOT250/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/src/install/my_cpp_py_pkg
+Invoked command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg' returned '0': /usr/bin/cmake /home/prts/RBOT250/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/src/install/my_cpp_py_pkg
+Invoking command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg': /usr/bin/cmake --build /home/prts/RBOT250/src/build/my_cpp_py_pkg -- -j4 -l4
+Invoked command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/src/build/my_cpp_py_pkg -- -j4 -l4
+Invoking command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg': /usr/bin/cmake --install /home/prts/RBOT250/src/build/my_cpp_py_pkg
+Invoked command in '/home/prts/RBOT250/src/build/my_cpp_py_pkg' returned '0': /usr/bin/cmake --install /home/prts/RBOT250/src/build/my_cpp_py_pkg

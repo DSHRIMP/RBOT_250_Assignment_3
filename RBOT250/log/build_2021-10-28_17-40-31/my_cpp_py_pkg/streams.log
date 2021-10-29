@@ -1,0 +1,63 @@
+[0.028s] Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+[0.079s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.210s] -- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.480s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.524s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[0.547s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.643s] -- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)
+[0.644s] -- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+[0.656s] -- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+[1.042s] -- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+[1.104s] -- Found sensor_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/sensor_msgs/cmake)
+[1.186s] -- Found trajectory_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/trajectory_msgs/cmake)
+[1.412s] -- Configuring done
+[1.428s] -- Generating done
+[1.433s] -- Build files have been written to: /home/prts/RBOT250/build/my_cpp_py_pkg
+[1.483s] [  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[1.500s] [100%] Built target cpp_executable
+[1.754s] running egg_info
+[1.754s] writing my_cpp_py_pkg.egg-info/PKG-INFO
+[1.755s] writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+[1.755s] writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+[1.758s] reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[1.758s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[1.790s] [100%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[1.802s] Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+[1.857s] Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --install /home/prts/RBOT250/build/my_cpp_py_pkg
+[1.873s] -- Install configuration: ""
+[1.873s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable
+[1.873s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+[1.873s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+[1.874s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info
+[1.874s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/PKG-INFO
+[1.874s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/dependency_links.txt
+[1.874s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/SOURCES.txt
+[1.874s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/top_level.txt
+[1.875s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg
+[1.875s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/__init__.py
+[1.875s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/module_to_import.py
+[1.911s] Listing '/home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg'...
+[1.916s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py
+[1.916s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg//launch
+[1.916s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg//launch/hw3launch.py
+[1.916s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[1.916s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[1.917s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[1.917s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[1.917s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[1.917s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[1.917s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[1.918s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[1.918s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[1.918s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[1.918s] -- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[1.918s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[1.919s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[1.919s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[1.919s] -- Up-to-date: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[1.923s] Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --install /home/prts/RBOT250/build/my_cpp_py_pkg

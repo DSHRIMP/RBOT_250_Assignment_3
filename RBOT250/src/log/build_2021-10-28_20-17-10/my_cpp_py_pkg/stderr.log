@@ -1,0 +1,19 @@
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:41:20:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   41 |   MinimalPublisher([01;31m[K)[m[K
+      |                    [01;31m[K^[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kint FramePublisher::MinimalPublisher()[m[K’:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   42 |     : [01;31m[KNode[m[K("minimal_publisher"), count_(0)
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:46:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   46 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:46:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ is not a class, namespace, or enumeration
+   46 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:47:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   47 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

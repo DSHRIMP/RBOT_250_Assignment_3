@@ -1,0 +1,11 @@
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/install/strip.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/test.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/client.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/server.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/install.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli/CMakeFiles/uninstall.dir

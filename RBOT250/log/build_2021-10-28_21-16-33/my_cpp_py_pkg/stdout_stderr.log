@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+running egg_info
+writing my_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KFramePublisher::FramePublisher()[m[K’:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFramePublisher::create_wall_timer(int, std::_Bind_helper<false, void (FramePublisher::*)(), FramePublisher*>::type)[m[K’
+   42 |     timer_ = this->create_wall_timer(50000, std::bind(&FramePublisher::timer_callback, this)[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/node.hpp:237:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  237 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/node.hpp:237:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:42:93:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+   42 |     timer_ = this->create_wall_timer(50000, std::bind(&FramePublisher::timer_callback, this)[01;36m[K)[m[K;
+      |                                                                                             [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

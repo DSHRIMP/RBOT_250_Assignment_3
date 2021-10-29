@@ -1,0 +1,84 @@
+[0.027s] Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+[0.105s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.128s] [  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[0.141s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[0.408s] running egg_info
+[0.409s] writing my_cpp_py_pkg.egg-info/PKG-INFO
+[0.409s] writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+[0.409s] writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+[0.413s] reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.413s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.464s] [ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[2.459s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::TransformStamped FramePublisher::get_tf2_value()[m[K’:
+[2.459s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:107:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.459s]   107 |      q.setRPY(0, 0, [01;31m[Kmsg[m[K->theta);
+[2.459s]       |                     [01;31m[K^~~[m[K
+[2.460s] [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:107:21:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.460s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/std_msgs/msg/detail/header__struct.hpp:19[m[K,
+[2.460s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:19[m[K,
+[2.460s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[2.460s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:1[m[K:
+[2.460s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/builtin_interfaces/msg/detail/time__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.461s]    26 | namespace [01;36m[Kmsg[m[K
+[2.461s]       |           [01;36m[K^~~[m[K
+[2.461s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:19[m[K,
+[2.461s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[2.461s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:1[m[K:
+[2.461s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.462s]    30 | namespace [01;36m[Kmsg[m[K
+[2.462s]       |           [01;36m[K^~~[m[K
+[2.462s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/transform__struct.hpp:19[m[K,
+[2.462s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:21[m[K,
+[2.462s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[2.462s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:1[m[K:
+[2.463s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[2.463s]    26 | namespace [01;36m[Kmsg[m[K
+[2.463s]       |           [01;36m[K^~~[m[K
+[2.463s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/subscription_options.hpp:29[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/subscription.hpp:45[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/any_executable.hpp:25[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.464s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.465s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor_options.hpp:20[m[K,
+[2.465s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor.hpp:36[m[K,
+[2.465s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.465s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors.hpp:21[m[K,
+[2.465s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.465s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[2.466s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.466s]    26 | namespace [01;36m[Kmsg[m[K
+[2.466s]       |           [01;36m[K^~~[m[K
+[2.466s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[2.466s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.466s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.466s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/subscription.hpp:50[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/any_executable.hpp:25[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor_options.hpp:20[m[K,
+[2.467s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor.hpp:36[m[K,
+[2.468s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.468s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors.hpp:21[m[K,
+[2.468s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.468s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[2.468s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.468s]    26 | namespace [01;36m[Kmsg[m[K
+[2.469s]       |           [01;36m[K^~~[m[K
+[2.469s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/tf2_msgs/msg/tf_message.hpp:7[m[K,
+[2.469s]                  from [01m[K/home/prts/ros2_galactic/ros2-linux/include/tf2_ros/transform_broadcaster.h:40[m[K,
+[2.469s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:9[m[K:
+[2.469s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/tf2_msgs/msg/detail/tf_message__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::msg[m[K’
+[2.469s]    30 | namespace [01;36m[Kmsg[m[K
+[2.470s]       |           [01;36m[K^~~[m[K
+[2.470s] In file included from [01m[K/home/prts/ros2_galactic/ros2-linux/include/turtlesim/msg/pose.hpp:7[m[K,
+[2.470s]                  from [01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:10[m[K:
+[2.470s] [01m[K/home/prts/ros2_galactic/ros2-linux/include/turtlesim/msg/detail/pose__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::msg[m[K’
+[2.470s]    26 | namespace [01;36m[Kmsg[m[K
+[2.470s]       |           [01;36m[K^~~[m[K
+[5.157s] make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[5.157s] make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+[5.157s] make: *** [Makefile:141: all] Error 2
+[5.161s] Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4

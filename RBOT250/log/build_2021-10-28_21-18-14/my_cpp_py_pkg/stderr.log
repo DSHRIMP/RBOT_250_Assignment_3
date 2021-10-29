@@ -1,0 +1,9 @@
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:16:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+   16 | using namespace std::literals::chrono_literals
+      |                                               [01;31m[K^[m[K
+      |                                               [32m[K;[m[K
+   17 | [32m[Kclass[m[K FramePublisher : public rclcpp::Node
+      | [32m[K~~~~~[m[K                                          
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

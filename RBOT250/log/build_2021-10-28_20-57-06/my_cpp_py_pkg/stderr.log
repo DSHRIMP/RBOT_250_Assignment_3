@@ -1,0 +1,7 @@
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::timer_callback()[m[K’:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:122:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+  122 |     message.[01;31m[Kdata[m[K = get_tf2_value();
+      |             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

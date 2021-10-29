@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[0.074s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.186s] -- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.210s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.415s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.456s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.574s] -- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+[0.584s] -- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+[0.954s] -- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+[1.015s] CMake Error at /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.015s]   ament_target_dependencies() the passed package name
+[1.015s]   'turtle_tf2_broadcaster' was not found before
+[1.015s] Call Stack (most recent call first):
+[1.016s]   CMakeLists.txt:18 (ament_target_dependencies)
+[1.016s] 
+[1.016s] 
+[1.017s] -- Configuring incomplete, errors occurred!
+[1.017s] See also "/home/prts/RBOT250/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[1.017s] See also "/home/prts/RBOT250/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[1.023s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.026s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4

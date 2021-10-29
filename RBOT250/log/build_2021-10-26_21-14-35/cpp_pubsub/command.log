@@ -1,0 +1,2 @@
+Invoking command in '/home/prts/RBOT250/build/cpp_pubsub': /usr/bin/cmake /home/prts/RBOT250/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/cpp_pubsub
+Invoked command in '/home/prts/RBOT250/build/cpp_pubsub' returned '1': /usr/bin/cmake /home/prts/RBOT250/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/cpp_pubsub

@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)
+-- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+-- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+-- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+-- Found sensor_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/trajectory_msgs/cmake)
+-- Found ament_lint_auto: 0.10.6 (/home/prts/ros2_galactic/ros2-linux/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prts/RBOT250/src/build/learning_tf2_cpp
+[  0%] Built target ament_cmake_python_symlink_learning_tf2_cpp
+[100%] Built target turtle_tf2_broadcaster
+running egg_info
+writing learning_tf2_cpp.egg-info/PKG-INFO
+writing dependency_links to learning_tf2_cpp.egg-info/dependency_links.txt
+writing top-level names to learning_tf2_cpp.egg-info/top_level.txt
+reading manifest file 'learning_tf2_cpp.egg-info/SOURCES.txt'
+writing manifest file 'learning_tf2_cpp.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_learning_tf2_cpp_egg
+-- Install configuration: ""
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/pythonpath.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/pythonpath.dsv
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages//learning_tf2_cpp.egg-info
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages//learning_tf2_cpp.egg-info/PKG-INFO
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages//learning_tf2_cpp.egg-info/dependency_links.txt
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages//learning_tf2_cpp.egg-info/SOURCES.txt
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages//learning_tf2_cpp.egg-info/top_level.txt
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages/learning_tf2_cpp
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages/learning_tf2_cpp/__init__.py
+Listing '/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages/learning_tf2_cpp'...
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/hello.py
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+-- Up-to-date: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml

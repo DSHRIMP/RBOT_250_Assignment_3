@@ -1,0 +1,22 @@
+[0.348s] Invoking command in '/home/prts/RBOT250/src/learning_tf2_py': PYTHONPATH=/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/prts/RBOT250/src/build/learning_tf2_py/build install --prefix /home/prts/RBOT250/src/install/learning_tf2_py --record /home/prts/RBOT250/src/build/learning_tf2_py/install.log --single-version-externally-managed
+[0.627s] running egg_info
+[0.628s] writing ../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.628s] writing dependency_links to ../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.629s] writing requirements to ../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.629s] writing top-level names to ../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.632s] reading manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.632s] writing manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.633s] running build
+[0.633s] running build_py
+[0.633s] running install
+[0.633s] /home/prts/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.633s]   warnings.warn(
+[0.634s] running install_lib
+[0.635s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.637s] Copying ../build/learning_tf2_py/learning_tf2_py.egg-info to /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.639s] running install_scripts
+[0.658s] writing list of installed files to '/home/prts/RBOT250/src/build/learning_tf2_py/install.log'
+[0.689s] Invoked command in '/home/prts/RBOT250/src/learning_tf2_py' returned '0': PYTHONPATH=/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/prts/RBOT250/src/build/learning_tf2_py/build install --prefix /home/prts/RBOT250/src/install/learning_tf2_py --record /home/prts/RBOT250/src/build/learning_tf2_py/install.log --single-version-externally-managed

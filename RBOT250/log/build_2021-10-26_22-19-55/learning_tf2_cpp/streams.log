@@ -1,0 +1,11 @@
+[0.023s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[0.120s] [ 25%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[0.126s] [ 75%] Built target turtle_tf2_broadcaster
+[0.129s] [01m[K/home/prts/RBOT250/src/learning_tf2_cpp/src/static_turtle_tf2_broadcaster.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+[0.129s]    15 | #include [01;31m[K<geometry_msgs/msg/transform_stamped.hpp>[m[K
+[0.129s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.129s] compilation terminated.
+[0.131s] make[2]: *** [CMakeFiles/static_turtle_tf2_broadcaster.dir/build.make:63: CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o] Error 1
+[0.131s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/static_turtle_tf2_broadcaster.dir/all] Error 2
+[0.131s] make: *** [Makefile:141: all] Error 2
+[0.133s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4

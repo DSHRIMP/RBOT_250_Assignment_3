@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)
+-- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+-- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+-- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+-- Found sensor_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/trajectory_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prts/RBOT250/src/build/my_cpp_py_pkg
+[35m[1mScanning dependencies of target ament_cmake_python_symlink_my_cpp_py_pkg[0m
+[35m[1mScanning dependencies of target cpp_executable[0m
+[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[35m[1mScanning dependencies of target ament_cmake_python_build_my_cpp_py_pkg_egg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+running egg_info
+creating my_cpp_py_pkg.egg-info
+writing my_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[100%] [32m[1mLinking CXX executable cpp_executable[0m
+[100%] Built target cpp_executable
+-- Install configuration: ""
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable
+-- Set runtime path of "/home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable" to ""
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/PKG-INFO
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/dependency_links.txt
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/SOURCES.txt
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/top_level.txt
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/__init__.py
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/module_to_import.py
+Listing '/home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg'...
+Compiling '/home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/__init__.py'...
+Compiling '/home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/module_to_import.py'...
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+-- Installing: /home/prts/RBOT250/src/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml

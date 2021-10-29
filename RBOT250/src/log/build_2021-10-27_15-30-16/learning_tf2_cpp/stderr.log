@@ -1,0 +1,28 @@
+Error parsing '/home/prts/RBOT250/src/learning_tf2_cpp/package.xml':
+Traceback (most recent call last):
+  File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 151, in <module>
+    main()
+  File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 54, in main
+    raise e
+  File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 50, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 773, in parse_package_string
+    pkg.validate(warnings=warnings)
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 316, in validate
+    raise InvalidPackage('\n'.join(errors), self.filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/prts/RBOT250/src/learning_tf2_cpp/package.xml':
+The package "learning_tf2_cpp" must not "exec_depend" on a package with the same name as this package
+CMake Error at /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/bin/python3
+  /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/prts/RBOT250/src/learning_tf2_cpp/package.xml
+  /home/prts/RBOT250/src/build/learning_tf2_cpp/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_python/cmake/ament_python_install_package.cmake:53 (ament_package_xml)
+  /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_python/cmake/ament_python_install_package.cmake:33 (_ament_cmake_python_install_package)
+  CMakeLists.txt:46 (ament_python_install_package)
+
+
+make: *** [Makefile:294: cmake_check_build_system] Error 1

@@ -1,0 +1,10 @@
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid FramePublisher::timer_callback()[m[K’:
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:90:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KFramePublisher*[m[K’ to ‘[01m[Kstd::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’
+   90 |     handle_turtle_pose(this[01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:53:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid FramePublisher::handle_turtle_pose(std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >)[m[K’
+   53 |   void handle_turtle_pose([01;36m[Kconst std::shared_ptr<turtlesim::msg::Pose> msg[m[K)
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

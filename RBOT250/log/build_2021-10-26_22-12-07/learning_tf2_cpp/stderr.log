@@ -1,0 +1,8 @@
+[01m[K/home/prts/RBOT250/src/learning_tf2_cpp/src/static_turtle_tf2_broadcaster.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+   15 | #include [01;31m[K<geometry_msgs/msg/transform_stamped.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/static_turtle_tf2_broadcaster.dir/build.make:63: CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/static_turtle_tf2_broadcaster.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

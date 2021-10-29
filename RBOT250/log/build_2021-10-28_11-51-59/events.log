@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.002583] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002895] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.002977] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.003061] (my_cpp_py_pkg) JobQueued: {'identifier': 'my_cpp_py_pkg', 'dependencies': OrderedDict()}
+[0.003169] (my_cpp_py_pkg) JobStarted: {'identifier': 'my_cpp_py_pkg'}
+[0.018247] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'cmake'}
+[0.018547] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/prts/RBOT250/src/my_cpp_py_pkg', '-DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/my_cpp_py_pkg'], 'cwd': '/home/prts/RBOT250/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src/my_cpp_py_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install:/home/prts/RBOT250/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a5e8f33_eeee_471b_9fd7_6f1486efb72b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_py:/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/my_cpp_py_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/RBOT250/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install/learning_tf2_py')]), 'shell': False}
+[0.099771] (-) TimerEvent: {}
+[0.164844] (my_cpp_py_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199882] (-) TimerEvent: {}
+[0.241671] (my_cpp_py_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.249579] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299988] (-) TimerEvent: {}
+[0.353109] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.355964] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400138] (-) TimerEvent: {}
+[0.462355] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.484805] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.485205] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.487873] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500245] (-) TimerEvent: {}
+[0.589129] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.591769] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600330] (-) TimerEvent: {}
+[0.700771] (-) TimerEvent: {}
+[0.703958] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.725682] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.726180] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.730672] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)\n'}
+[0.762706] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.763050] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800896] (-) TimerEvent: {}
+[0.858529] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)\n'}
+[0.901036] (-) TimerEvent: {}
+[0.903781] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.912001] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[1.001170] (-) TimerEvent: {}
+[1.012767] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.039024] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  \n'}
+[1.101305] (-) TimerEvent: {}
+[1.116906] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.185454] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)\n'}
+[1.188478] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.201379] (-) TimerEvent: {}
+[1.211258] (my_cpp_py_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.213048] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301502] (-) TimerEvent: {}
+[1.321923] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.322306] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401625] (-) TimerEvent: {}
+[1.428528] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.429151] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.501787] (-) TimerEvent: {}
+[1.516464] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.516889] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.601912] (-) TimerEvent: {}
+[1.608533] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.610963] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702035] (-) TimerEvent: {}
+[1.719244] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)\n'}
+[1.802171] (-) TimerEvent: {}
+[1.882311] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.889046] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.890687] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/prts/RBOT250/build/my_cpp_py_pkg\n'}
+[1.896397] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[1.897405] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'build'}
+[1.898352] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prts/RBOT250/build/my_cpp_py_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prts/RBOT250/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src/my_cpp_py_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install:/home/prts/RBOT250/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a5e8f33_eeee_471b_9fd7_6f1486efb72b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_py:/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/my_cpp_py_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/RBOT250/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install/learning_tf2_py')]), 'shell': False}
+[1.902270] (-) TimerEvent: {}
+[1.957295] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_symlink_my_cpp_py_pkg\x1b[0m\n'}
+[1.960993] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_executable\x1b[0m\n'}
+[1.990827] (my_cpp_py_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg\n'}
+[2.000530] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_my_cpp_py_pkg_egg\x1b[0m\n'}
+[2.002375] (-) TimerEvent: {}
+[2.003813] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[2.102499] (-) TimerEvent: {}
+[2.203042] (-) TimerEvent: {}
+[2.270870] (my_cpp_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.271534] (my_cpp_py_pkg) StdoutLine: {'line': b'creating my_cpp_py_pkg.egg-info\n'}
+[2.271841] (my_cpp_py_pkg) StdoutLine: {'line': b'writing my_cpp_py_pkg.egg-info/PKG-INFO\n'}
+[2.272096] (my_cpp_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt\n'}
+[2.272326] (my_cpp_py_pkg) StdoutLine: {'line': b'writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt\n'}
+[2.273804] (my_cpp_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.276137] (my_cpp_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.276653] (my_cpp_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.303215] (-) TimerEvent: {}
+[2.313532] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg\n'}
+[2.403353] (-) TimerEvent: {}
+[2.503828] (-) TimerEvent: {}
+[2.604289] (-) TimerEvent: {}
+[2.704724] (-) TimerEvent: {}
+[2.805172] (-) TimerEvent: {}
+[2.905610] (-) TimerEvent: {}
+[3.006031] (-) TimerEvent: {}
+[3.106449] (-) TimerEvent: {}
+[3.206955] (-) TimerEvent: {}
+[3.307387] (-) TimerEvent: {}
+[3.407830] (-) TimerEvent: {}
+[3.508516] (-) TimerEvent: {}
+[3.609182] (-) TimerEvent: {}
+[3.709843] (-) TimerEvent: {}
+[3.810535] (-) TimerEvent: {}
+[3.911199] (-) TimerEvent: {}
+[4.011638] (-) TimerEvent: {}
+[4.112092] (-) TimerEvent: {}
+[4.212547] (-) TimerEvent: {}
+[4.313011] (-) TimerEvent: {}
+[4.413722] (-) TimerEvent: {}
+[4.514381] (-) TimerEvent: {}
+[4.614897] (-) TimerEvent: {}
+[4.715387] (-) TimerEvent: {}
+[4.761052] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_executable\x1b[0m\n'}
+[4.815539] (-) TimerEvent: {}
+[4.916060] (-) TimerEvent: {}
+[4.923027] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[4.934598] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[4.969478] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'install'}
+[4.984298] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prts/RBOT250/build/my_cpp_py_pkg'], 'cwd': '/home/prts/RBOT250/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src/my_cpp_py_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install:/home/prts/RBOT250/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a5e8f33_eeee_471b_9fd7_6f1486efb72b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_py:/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/my_cpp_py_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/RBOT250/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install/learning_tf2_py')]), 'shell': False}
+[5.003617] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.004099] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable\n'}
+[5.004344] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/prts/RBOT250/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable" to ""\n'}
+[5.004580] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh\n'}
+[5.004825] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv\n'}
+[5.005046] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info\n'}
+[5.005281] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/PKG-INFO\n'}
+[5.005448] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/dependency_links.txt\n'}
+[5.005611] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/SOURCES.txt\n'}
+[5.005772] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages//my_cpp_py_pkg.egg-info/top_level.txt\n'}
+[5.005963] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg\n'}
+[5.006128] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/__init__.py\n'}
+[5.006292] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/module_to_import.py\n'}
+[5.016185] (-) TimerEvent: {}
+[5.044092] (my_cpp_py_pkg) StdoutLine: {'line': b"Listing '/home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg'...\n"}
+[5.044400] (my_cpp_py_pkg) StdoutLine: {'line': b"Compiling '/home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/__init__.py'...\n"}
+[5.044568] (my_cpp_py_pkg) StdoutLine: {'line': b"Compiling '/home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages/my_cpp_py_pkg/module_to_import.py'...\n"}
+[5.048658] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py\n'}
+[5.049124] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg\n'}
+[5.049511] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg\n'}
+[5.049832] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh\n'}
+[5.050110] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv\n'}
+[5.050409] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh\n'}
+[5.050864] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv\n'}
+[5.051140] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash\n'}
+[5.051336] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh\n'}
+[5.051611] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh\n'}
+[5.051888] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv\n'}
+[5.052166] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv\n'}
+[5.052535] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg\n'}
+[5.052870] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake\n'}
+[5.053059] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake\n'}
+[5.053344] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml\n'}
+[5.056572] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[5.116273] (-) TimerEvent: {}
+[5.130023] (my_cpp_py_pkg) JobEnded: {'identifier': 'my_cpp_py_pkg', 'rc': 0}
+[5.131183] (-) EventReactorShutdown: {}

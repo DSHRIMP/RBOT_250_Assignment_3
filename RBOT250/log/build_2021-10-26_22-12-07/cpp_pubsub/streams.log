@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/prts/RBOT250/build/cpp_pubsub': /usr/bin/cmake --build /home/prts/RBOT250/build/cpp_pubsub -- -j4 -l4
+[0.114s] [ 50%] Built target talker
+[0.118s] [100%] Built target listener
+[0.134s] Invoked command in '/home/prts/RBOT250/build/cpp_pubsub' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/build/cpp_pubsub -- -j4 -l4
+[0.193s] Invoking command in '/home/prts/RBOT250/build/cpp_pubsub': /usr/bin/cmake --install /home/prts/RBOT250/build/cpp_pubsub
+[0.210s] -- Install configuration: ""
+[0.210s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.211s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.211s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.212s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.212s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.212s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.213s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.213s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.213s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.213s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.213s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.213s] -- Installing: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.214s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.214s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.214s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.214s] -- Up-to-date: /home/prts/RBOT250/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.217s] Invoked command in '/home/prts/RBOT250/build/cpp_pubsub' returned '0': /usr/bin/cmake --install /home/prts/RBOT250/build/cpp_pubsub

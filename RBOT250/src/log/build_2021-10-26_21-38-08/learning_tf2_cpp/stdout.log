@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+-- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+-- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+-- Found ament_lint_auto: 0.10.6 (/home/prts/ros2_galactic/ros2-linux/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prts/RBOT250/src/build/learning_tf2_cpp
+[35m[1mScanning dependencies of target static_turtle_tf2_broadcaster[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[100%] Built target static_turtle_tf2_broadcaster
+-- Install configuration: ""
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+-- Set runtime path of "/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+-- Installing: /home/prts/RBOT250/src/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml

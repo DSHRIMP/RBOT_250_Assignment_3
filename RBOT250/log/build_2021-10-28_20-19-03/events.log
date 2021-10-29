@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.002587] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.003513] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.003593] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.003716] (my_cpp_py_pkg) JobQueued: {'identifier': 'my_cpp_py_pkg', 'dependencies': OrderedDict()}
+[0.003805] (my_cpp_py_pkg) JobStarted: {'identifier': 'my_cpp_py_pkg'}
+[0.025015] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'cmake'}
+[0.025778] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'build'}
+[0.026708] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prts/RBOT250/build/my_cpp_py_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prts/RBOT250/build/my_cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/RBOT250/install:/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/04dde545_bd64_47c7_9aba_3a6b0ab5f899'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/install/my_cpp_py_pkg:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/RBOT250/src/install/learning_tf2_py:/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/my_cpp_py_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/RBOT250/install/my_cpp_py_pkg/lib/python3.8/site-packages:/home/prts/RBOT250/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:/home/prts/RBOT250/src/install/learning_tf2_cpp/lib/python3.8/site-packages:/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/install/my_cpp_py_pkg:/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/RBOT250/src/install/learning_tf2_cpp:/home/prts/RBOT250/src/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux:/home/prts/RBOT250/src/install/learning_tf2_py')]), 'shell': False}
+[0.099763] (-) TimerEvent: {}
+[0.107608] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_executable\x1b[0m\n'}
+[0.124332] (my_cpp_py_pkg) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg\n'}
+[0.136116] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.199904] (-) TimerEvent: {}
+[0.300620] (-) TimerEvent: {}
+[0.401116] (-) TimerEvent: {}
+[0.415082] (my_cpp_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.415864] (my_cpp_py_pkg) StdoutLine: {'line': b'writing my_cpp_py_pkg.egg-info/PKG-INFO\n'}
+[0.416203] (my_cpp_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt\n'}
+[0.417388] (my_cpp_py_pkg) StdoutLine: {'line': b'writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt\n'}
+[0.425133] (my_cpp_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.426536] (my_cpp_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.465262] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg\n'}
+[0.501257] (-) TimerEvent: {}
+[0.601692] (-) TimerEvent: {}
+[0.702108] (-) TimerEvent: {}
+[0.802557] (-) TimerEvent: {}
+[0.902994] (-) TimerEvent: {}
+[1.003452] (-) TimerEvent: {}
+[1.103943] (-) TimerEvent: {}
+[1.204425] (-) TimerEvent: {}
+[1.304909] (-) TimerEvent: {}
+[1.405376] (-) TimerEvent: {}
+[1.505846] (-) TimerEvent: {}
+[1.606333] (-) TimerEvent: {}
+[1.706834] (-) TimerEvent: {}
+[1.807313] (-) TimerEvent: {}
+[1.907809] (-) TimerEvent: {}
+[2.008277] (-) TimerEvent: {}
+[2.108754] (-) TimerEvent: {}
+[2.209226] (-) TimerEvent: {}
+[2.309649] (-) TimerEvent: {}
+[2.410067] (-) TimerEvent: {}
+[2.431838] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FramePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.432405] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:91:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::TransformStamped_<std::allocator<void> > >::publish(std_msgs::msg::String_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.432612] (my_cpp_py_pkg) StderrLine: {'line': b'   91 |     publisher_->publish(message\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.432782] (my_cpp_py_pkg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.432945] (my_cpp_py_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.433107] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.433268] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.433429] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.433591] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.433752] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.433911] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.434071] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.434232] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.434392] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.434551] (my_cpp_py_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:7\x1b[m\x1b[K:\n'}
+[2.434710] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:187:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<geometry_msgs::msg::TransformStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.434898] (my_cpp_py_pkg) StderrLine: {'line': b'  187 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[2.435077] (my_cpp_py_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.435240] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:187:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<geometry_msgs::msg::TransformStamped_<std::allocator<void> >, std::default_delete<geometry_msgs::msg::TransformStamped_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.435436] (my_cpp_py_pkg) StderrLine: {'line': b'  187 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[2.435599] (my_cpp_py_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.435758] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:211:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.435924] (my_cpp_py_pkg) StderrLine: {'line': b'  211 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[2.436082] (my_cpp_py_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.436301] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:211:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::TransformStamped_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.436499] (my_cpp_py_pkg) StderrLine: {'line': b'  211 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[2.436658] (my_cpp_py_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.436817] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:228:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.436986] (my_cpp_py_pkg) StderrLine: {'line': b'  228 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[2.437223] (my_cpp_py_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.437388] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:228:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.437618] (my_cpp_py_pkg) StderrLine: {'line': b'  228 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[2.437798] (my_cpp_py_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.437961] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.438129] (my_cpp_py_pkg) StderrLine: {'line': b'  234 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[2.438339] (my_cpp_py_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.438520] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:234:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.438690] (my_cpp_py_pkg) StderrLine: {'line': b'  234 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[2.438851] (my_cpp_py_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.439012] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:248:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.439182] (my_cpp_py_pkg) StderrLine: {'line': b'  248 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[2.439342] (my_cpp_py_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.439502] (my_cpp_py_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prts/ros2_galactic/ros2-linux/include/rclcpp/publisher.hpp:248:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<geometry_msgs::msg::TransformStamped_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.439703] (my_cpp_py_pkg) StderrLine: {'line': b'  248 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[2.439868] (my_cpp_py_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.510252] (-) TimerEvent: {}
+[2.610715] (-) TimerEvent: {}
+[2.711191] (-) TimerEvent: {}
+[2.811678] (-) TimerEvent: {}
+[2.912159] (-) TimerEvent: {}
+[3.012598] (-) TimerEvent: {}
+[3.113022] (-) TimerEvent: {}
+[3.213595] (-) TimerEvent: {}
+[3.314060] (-) TimerEvent: {}
+[3.414513] (-) TimerEvent: {}
+[3.515164] (-) TimerEvent: {}
+[3.615659] (-) TimerEvent: {}
+[3.716088] (-) TimerEvent: {}
+[3.816574] (-) TimerEvent: {}
+[3.917052] (-) TimerEvent: {}
+[4.017532] (-) TimerEvent: {}
+[4.117999] (-) TimerEvent: {}
+[4.218430] (-) TimerEvent: {}
+[4.318887] (-) TimerEvent: {}
+[4.419375] (-) TimerEvent: {}
+[4.519841] (-) TimerEvent: {}
+[4.620275] (-) TimerEvent: {}
+[4.720754] (-) TimerEvent: {}
+[4.821229] (-) TimerEvent: {}
+[4.921664] (-) TimerEvent: {}
+[4.934779] (my_cpp_py_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1\n'}
+[4.935161] (my_cpp_py_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2\n'}
+[4.935486] (my_cpp_py_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.938255] (my_cpp_py_pkg) CommandEnded: {'returncode': 2}
+[4.997358] (my_cpp_py_pkg) JobEnded: {'identifier': 'my_cpp_py_pkg', 'rc': 2}
+[5.008171] (-) EventReactorShutdown: {}

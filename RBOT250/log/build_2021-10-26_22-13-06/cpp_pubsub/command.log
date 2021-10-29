@@ -1,0 +1,2 @@
+Invoking command in '/home/prts/RBOT250/build/cpp_pubsub': /usr/bin/cmake --build /home/prts/RBOT250/build/cpp_pubsub -- -j4 -l4
+Invoked command in '/home/prts/RBOT250/build/cpp_pubsub' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/build/cpp_pubsub -- -j4 -l4

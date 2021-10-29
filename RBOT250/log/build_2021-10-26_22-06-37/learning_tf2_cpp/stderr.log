@@ -1,0 +1,8 @@
+CMake Error at /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name
+  'static_turtle_tf2_broadcaster' was not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:18 (ament_target_dependencies)
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

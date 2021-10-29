@@ -1,0 +1,2 @@
+Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4

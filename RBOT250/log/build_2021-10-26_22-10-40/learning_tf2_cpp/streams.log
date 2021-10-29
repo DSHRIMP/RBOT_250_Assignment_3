@@ -1,0 +1,36 @@
+[0.032s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[0.072s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.189s] -- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.469s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.471s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[0.492s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.589s] -- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+[0.600s] -- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+[0.971s] -- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+[1.033s] CMake Error at CMakeLists.txt:32 (install):
+[1.034s]   install DIRECTORY given no DESTINATION!
+[1.034s] 
+[1.034s] 
+[1.034s] -- Found ament_lint_auto: 0.10.6 (/home/prts/ros2_galactic/ros2-linux/share/ament_lint_auto/cmake)
+[1.114s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.115s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.115s] -- Configured cppcheck include dirs: 
+[1.115s] -- Configured cppcheck exclude dirs and/or files: 
+[1.116s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.116s] -- Configured cpplint exclude dirs and/or files: 
+[1.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.116s] -- Added test 'lint_cmake' to check CMake code style
+[1.117s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.117s] -- Added test 'uncrustify' to check C / C++ code style
+[1.117s] -- Configured uncrustify additional arguments: 
+[1.118s] -- Added test 'xmllint' to check XML markup files
+[1.120s] -- Configuring incomplete, errors occurred!
+[1.121s] See also "/home/prts/RBOT250/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[1.121s] See also "/home/prts/RBOT250/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[1.128s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.131s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4

@@ -1,0 +1,49 @@
+[0.037s] Invoking command in '/home/prts/RBOT250/src/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/src/build/learning_tf2_cpp -- -j4 -l4
+[0.072s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+[0.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.421s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.466s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[0.490s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.589s] -- Found rclpy: 1.9.0 (/home/prts/ros2_galactic/ros2-linux/share/rclpy/cmake)
+[0.589s] -- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+[0.600s] -- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+[0.976s] -- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+[1.037s] -- Found sensor_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/sensor_msgs/cmake)
+[1.118s] -- Found trajectory_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/trajectory_msgs/cmake)
+[1.259s] Error parsing '/home/prts/RBOT250/src/learning_tf2_cpp/package.xml':
+[1.344s] Traceback (most recent call last):
+[1.344s]   File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 151, in <module>
+[1.344s]     main()
+[1.344s]   File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 54, in main
+[1.344s]     raise e
+[1.345s]   File "/home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 50, in main
+[1.345s]     package = parse_package_string(
+[1.345s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 773, in parse_package_string
+[1.345s]     pkg.validate(warnings=warnings)
+[1.345s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 316, in validate
+[1.345s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.346s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/prts/RBOT250/src/learning_tf2_cpp/package.xml':
+[1.346s] The package "learning_tf2_cpp" must not "exec_depend" on a package with the same name as this package
+[1.369s] CMake Error at /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.369s]   execute_process(/usr/bin/python3
+[1.369s]   /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.369s]   /home/prts/RBOT250/src/learning_tf2_cpp/package.xml
+[1.369s]   /home/prts/RBOT250/src/build/learning_tf2_cpp/ament_cmake_core/package.cmake)
+[1.369s]   returned error code 1
+[1.369s] Call Stack (most recent call first):
+[1.369s]   /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.369s]   /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_python/cmake/ament_python_install_package.cmake:53 (ament_package_xml)
+[1.369s]   /home/prts/ros2_galactic/ros2-linux/share/ament_cmake_python/cmake/ament_python_install_package.cmake:33 (_ament_cmake_python_install_package)
+[1.369s]   CMakeLists.txt:46 (ament_python_install_package)
+[1.369s] 
+[1.369s] 
+[1.373s] -- Configuring incomplete, errors occurred!
+[1.373s] See also "/home/prts/RBOT250/src/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[1.373s] See also "/home/prts/RBOT250/src/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[1.383s] make: *** [Makefile:294: cmake_check_build_system] Error 1
+[1.386s] Invoked command in '/home/prts/RBOT250/src/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/prts/RBOT250/src/build/learning_tf2_cpp -- -j4 -l4

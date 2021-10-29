@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[  0%] Built target ament_cmake_python_symlink_my_cpp_py_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+running egg_info
+writing my_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg

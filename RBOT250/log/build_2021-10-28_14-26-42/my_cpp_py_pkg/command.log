@@ -1,0 +1,4 @@
+Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --build /home/prts/RBOT250/build/my_cpp_py_pkg -- -j4 -l4
+Invoking command in '/home/prts/RBOT250/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --install /home/prts/RBOT250/build/my_cpp_py_pkg
+Invoked command in '/home/prts/RBOT250/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prts/RBOT250/src/install/learning_tf2_py /usr/bin/cmake --install /home/prts/RBOT250/build/my_cpp_py_pkg

@@ -1,0 +1,36 @@
+[0.021s] Invoking command in '/home/prts/RBOT250/build/cpp_pubsub': /usr/bin/cmake /home/prts/RBOT250/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/cpp_pubsub
+[0.039s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.213s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[0.214s]   Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+[0.214s]   system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY
+[0.214s]   OPENSSL_INCLUDE_DIR)
+[0.214s] Call Stack (most recent call first):
+[0.214s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[0.214s]   /usr/share/cmake-3.16/Modules/FindOpenSSL.cmake:447 (find_package_handle_standard_args)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.215s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_default_runtime/cmake/rosidl_default_runtime-extras.cmake:12 (find_package)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig.cmake:41 (include)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+[0.216s]   /home/prts/ros2_galactic/ros2-linux/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.217s]   /home/prts/ros2_galactic/ros2-linux/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.217s]   /home/prts/ros2_galactic/ros2-linux/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.217s]   /home/prts/ros2_galactic/ros2-linux/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.217s]   /home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.217s]   /home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.217s]   CMakeLists.txt:10 (find_package)
+[0.217s] 
+[0.218s] 
+[0.218s] -- Configuring incomplete, errors occurred!
+[0.218s] See also "/home/prts/RBOT250/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.219s] Invoked command in '/home/prts/RBOT250/build/cpp_pubsub' returned '1': /usr/bin/cmake /home/prts/RBOT250/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/cpp_pubsub

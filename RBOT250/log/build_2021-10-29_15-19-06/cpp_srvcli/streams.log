@@ -1,0 +1,59 @@
+[0.029s] Invoking command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli': /usr/bin/cmake /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli
+[0.060s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.092s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.372s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.409s] -- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.567s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[0.599s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.611s] -- Looking for pthread.h
+[0.759s] -- Looking for pthread.h - found
+[0.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.868s] -- Looking for pthread_create in pthreads
+[0.958s] -- Looking for pthread_create in pthreads - not found
+[0.959s] -- Looking for pthread_create in pthread
+[1.059s] -- Looking for pthread_create in pthread - found
+[1.060s] -- Found Threads: TRUE  
+[1.178s] -- Found example_interfaces: 0.9.2 (/home/prts/ros2_galactic/ros2-linux/share/example_interfaces/cmake)
+[1.387s] -- Configuring done
+[1.398s] -- Generating done
+[1.400s] -- Build files have been written to: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli
+[1.408s] Invoked command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli' returned '0': /usr/bin/cmake /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli
+[1.413s] Invoking command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli': /usr/bin/cmake --build /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli -- -j4 -l4
+[1.474s] [35m[1mScanning dependencies of target client[0m
+[1.478s] [35m[1mScanning dependencies of target server[0m
+[1.576s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.581s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[5.688s] [ 75%] [32m[1mLinking CXX executable server[0m
+[6.004s] [100%] [32m[1mLinking CXX executable client[0m
+[6.062s] [100%] Built target server
+[6.282s] [100%] Built target client
+[6.302s] Invoked command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli' returned '0': /usr/bin/cmake --build /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli -- -j4 -l4
+[6.360s] Invoking command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli': /usr/bin/cmake --install /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli
+[6.371s] -- Install configuration: ""
+[6.371s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/server
+[6.372s] -- Set runtime path of "/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[6.372s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/client
+[6.372s] -- Set runtime path of "/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[6.373s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[6.373s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[6.373s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[6.373s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[6.374s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[6.374s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[6.375s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[6.375s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[6.375s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[6.376s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[6.376s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[6.376s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[6.376s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[6.377s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[6.377s] -- Installing: /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[6.381s] Invoked command in '/home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli' returned '0': /usr/bin/cmake --install /home/prts/RBTO250 Github/RBOT_250_Assignment_3/RBOT250/build/cpp_srvcli

@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000581] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000672] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.001530] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.017802] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.018640] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.019620] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prts/RBOT250/build/learning_tf2_cpp', '--', '-j4', '-l4'], 'cwd': '/home/prts/RBOT250/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/RBOT250/install:/home/prts/ros2_galactic/ros2-linux'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/590255b8_3329_4f03_ae97_89c938796297'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/learning_tf2_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux')]), 'shell': False}
+[0.089681] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_broadcaster\x1b[0m\n'}
+[0.099114] (-) TimerEvent: {}
+[0.130057] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[0.199300] (-) TimerEvent: {}
+[0.299757] (-) TimerEvent: {}
+[0.400178] (-) TimerEvent: {}
+[0.500642] (-) TimerEvent: {}
+[0.601100] (-) TimerEvent: {}
+[0.701562] (-) TimerEvent: {}
+[0.802042] (-) TimerEvent: {}
+[0.902503] (-) TimerEvent: {}
+[1.002979] (-) TimerEvent: {}
+[1.103449] (-) TimerEvent: {}
+[1.203877] (-) TimerEvent: {}
+[1.304351] (-) TimerEvent: {}
+[1.405026] (-) TimerEvent: {}
+[1.505488] (-) TimerEvent: {}
+[1.606155] (-) TimerEvent: {}
+[1.706884] (-) TimerEvent: {}
+[1.807552] (-) TimerEvent: {}
+[1.908256] (-) TimerEvent: {}
+[2.008924] (-) TimerEvent: {}
+[2.109590] (-) TimerEvent: {}
+[2.210262] (-) TimerEvent: {}
+[2.310932] (-) TimerEvent: {}
+[2.411386] (-) TimerEvent: {}
+[2.511842] (-) TimerEvent: {}
+[2.612317] (-) TimerEvent: {}
+[2.712781] (-) TimerEvent: {}
+[2.813241] (-) TimerEvent: {}
+[2.913763] (-) TimerEvent: {}
+[3.014209] (-) TimerEvent: {}
+[3.114632] (-) TimerEvent: {}
+[3.215106] (-) TimerEvent: {}
+[3.315560] (-) TimerEvent: {}
+[3.416238] (-) TimerEvent: {}
+[3.516921] (-) TimerEvent: {}
+[3.617384] (-) TimerEvent: {}
+[3.718069] (-) TimerEvent: {}
+[3.818756] (-) TimerEvent: {}
+[3.919441] (-) TimerEvent: {}
+[4.020292] (-) TimerEvent: {}
+[4.120707] (-) TimerEvent: {}
+[4.221360] (-) TimerEvent: {}
+[4.322033] (-) TimerEvent: {}
+[4.422702] (-) TimerEvent: {}
+[4.523176] (-) TimerEvent: {}
+[4.623602] (-) TimerEvent: {}
+[4.724063] (-) TimerEvent: {}
+[4.824513] (-) TimerEvent: {}
+[4.924979] (-) TimerEvent: {}
+[5.025446] (-) TimerEvent: {}
+[5.125922] (-) TimerEvent: {}
+[5.226394] (-) TimerEvent: {}
+[5.327043] (-) TimerEvent: {}
+[5.427687] (-) TimerEvent: {}
+[5.528367] (-) TimerEvent: {}
+[5.628781] (-) TimerEvent: {}
+[5.729216] (-) TimerEvent: {}
+[5.829655] (-) TimerEvent: {}
+[5.930105] (-) TimerEvent: {}
+[6.030555] (-) TimerEvent: {}
+[6.131012] (-) TimerEvent: {}
+[6.231450] (-) TimerEvent: {}
+[6.331897] (-) TimerEvent: {}
+[6.432336] (-) TimerEvent: {}
+[6.532779] (-) TimerEvent: {}
+[6.633219] (-) TimerEvent: {}
+[6.733656] (-) TimerEvent: {}
+[6.834105] (-) TimerEvent: {}
+[6.934539] (-) TimerEvent: {}
+[7.035251] (-) TimerEvent: {}
+[7.135894] (-) TimerEvent: {}
+[7.236536] (-) TimerEvent: {}
+[7.337174] (-) TimerEvent: {}
+[7.437825] (-) TimerEvent: {}
+[7.538268] (-) TimerEvent: {}
+[7.638704] (-) TimerEvent: {}
+[7.739153] (-) TimerEvent: {}
+[7.839583] (-) TimerEvent: {}
+[7.939998] (-) TimerEvent: {}
+[8.040588] (-) TimerEvent: {}
+[8.141298] (-) TimerEvent: {}
+[8.242057] (-) TimerEvent: {}
+[8.342603] (-) TimerEvent: {}
+[8.438069] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[8.442724] (-) TimerEvent: {}
+[8.543232] (-) TimerEvent: {}
+[8.643807] (-) TimerEvent: {}
+[8.744467] (-) TimerEvent: {}
+[8.844935] (-) TimerEvent: {}
+[8.930362] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_broadcaster\n'}
+[8.941346] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[8.945088] (-) TimerEvent: {}
+[8.972554] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[8.988768] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prts/RBOT250/build/learning_tf2_cpp'], 'cwd': '/home/prts/RBOT250/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'prts'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/prts/ros2_galactic/ros2-linux/opt/yaml_cpp_vendor/lib:/home/prts/ros2_galactic/ros2-linux/opt/rviz_ogre_vendor/lib:/home/prts/ros2_galactic/ros2-linux/lib'), ('HOME', '/home/prts'), ('OLDPWD', '/home/prts/RBOT250/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '810'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/prts/RBOT250/install:/home/prts/ros2_galactic/ros2-linux'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'prts'), ('JOURNAL_STREAM', '8:38008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/prts/ros2_galactic/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/prts/ros2_galactic/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prts'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/prts/ros2_galactic/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/prts:@/tmp/.ICE-unix/1142,unix/prts:/tmp/.ICE-unix/1142'), ('INVOCATION_ID', 'd896a933268545d8bb0fdd122397c158'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/590255b8_3329_4f03_ae97_89c938796297'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prts/RBOT250/build/learning_tf2_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9c977916ba3eb6b35d473d6178c001'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prts/ros2_galactic/ros2-linux/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/prts/RBOT250/install/learning_tf2_cpp:/home/prts/RBOT250/install/cpp_pubsub:/home/prts/ros2_galactic/ros2-linux')]), 'shell': False}
+[9.006209] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.006695] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster\n'}
+[9.009346] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""\n'}
+[9.009715] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/launch\n'}
+[9.010019] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py\n'}
+[9.010308] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[9.010568] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[9.010750] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[9.010952] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[9.011126] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[9.011297] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[9.011465] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[9.011694] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[9.011995] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[9.012354] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[9.012695] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[9.013238] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[9.013321] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[9.013401] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[9.013478] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[9.014732] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[9.045235] (-) TimerEvent: {}
+[9.088835] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[9.089971] (-) EventReactorShutdown: {}

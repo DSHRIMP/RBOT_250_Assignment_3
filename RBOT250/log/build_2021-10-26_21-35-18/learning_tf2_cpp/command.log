@@ -1,0 +1,6 @@
+Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake /home/prts/RBOT250/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/learning_tf2_cpp
+Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake /home/prts/RBOT250/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/learning_tf2_cpp
+Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp
+Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp

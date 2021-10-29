@@ -1,0 +1,30 @@
+[0.364s] Invoking command in '/home/prts/RBOT250/src/learning_tf2_py': PYTHONPATH=/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/prts/RBOT250/src/build/learning_tf2_py/build install --prefix /home/prts/RBOT250/src/install/learning_tf2_py --record /home/prts/RBOT250/src/build/learning_tf2_py/install.log --single-version-externally-managed
+[0.654s] running egg_info
+[0.655s] writing ../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.655s] writing requirements to ../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.656s] writing top-level names to ../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.659s] reading manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.659s] writing manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.660s] running build
+[0.660s] running build_py
+[0.660s] copying learning_tf2_py/__init__.py -> /home/prts/RBOT250/src/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.660s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/prts/RBOT250/src/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.660s] running install
+[0.661s] /home/prts/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.661s]   warnings.warn(
+[0.661s] running install_lib
+[0.662s] copying /home/prts/RBOT250/src/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.662s] copying /home/prts/RBOT250/src/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.663s] byte-compiling /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/__init__.py to __init__.cpython-38.pyc
+[0.663s] byte-compiling /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-38.pyc
+[0.664s] running install_data
+[0.664s] copying resource/learning_tf2_py -> /home/prts/RBOT250/src/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.664s] copying package.xml -> /home/prts/RBOT250/src/install/learning_tf2_py/share/learning_tf2_py
+[0.665s] running install_egg_info
+[0.666s] removing '/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.666s] Copying ../build/learning_tf2_py/learning_tf2_py.egg-info to /home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.667s] running install_scripts
+[0.685s] writing list of installed files to '/home/prts/RBOT250/src/build/learning_tf2_py/install.log'
+[0.721s] Invoked command in '/home/prts/RBOT250/src/learning_tf2_py' returned '0': PYTHONPATH=/home/prts/RBOT250/src/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/prts/RBOT250/src/build/learning_tf2_py/build install --prefix /home/prts/RBOT250/src/install/learning_tf2_py --record /home/prts/RBOT250/src/build/learning_tf2_py/install.log --single-version-externally-managed

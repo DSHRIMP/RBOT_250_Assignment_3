@@ -1,0 +1,81 @@
+[0.027s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake /home/prts/RBOT250/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/learning_tf2_cpp
+[0.108s] -- The C compiler identification is GNU 9.3.0
+[0.188s] -- The CXX compiler identification is GNU 9.3.0
+[0.193s] -- Check for working C compiler: /usr/bin/cc
+[0.275s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.277s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.505s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Detecting CXX compile features
+[0.647s] -- Detecting CXX compile features - done
+[0.650s] -- Found ament_cmake: 1.1.4 (/home/prts/ros2_galactic/ros2-linux/share/ament_cmake/cmake)
+[0.683s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.780s] -- Found geometry_msgs: 2.2.3 (/home/prts/ros2_galactic/ros2-linux/share/geometry_msgs/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.815s] -- Found rosidl_adapter: 2.2.1 (/home/prts/ros2_galactic/ros2-linux/share/rosidl_adapter/cmake)
+[0.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.927s] -- Found FastRTPS: /home/prts/ros2_galactic/ros2-linux/include  
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found rclcpp: 9.1.0 (/home/prts/ros2_galactic/ros2-linux/share/rclcpp/cmake)
+[1.149s] -- Found rmw_implementation_cmake: 3.3.1 (/home/prts/ros2_galactic/ros2-linux/share/rmw_implementation_cmake/cmake)
+[1.151s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/home/prts/ros2_galactic/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[1.173s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.174s] -- Looking for pthread.h
+[1.278s] -- Looking for pthread.h - found
+[1.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.385s] -- Looking for pthread_create in pthreads
+[1.474s] -- Looking for pthread_create in pthreads - not found
+[1.474s] -- Looking for pthread_create in pthread
+[1.572s] -- Looking for pthread_create in pthread - found
+[1.575s] -- Found Threads: TRUE  
+[1.679s] -- Found tf2: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2/cmake)
+[1.694s] -- Found tf2_ros: 0.17.2 (/home/prts/ros2_galactic/ros2-linux/share/tf2_ros/cmake)
+[2.090s] -- Found turtlesim: 1.3.3 (/home/prts/ros2_galactic/ros2-linux/share/turtlesim/cmake)
+[2.155s] -- Found ament_lint_auto: 0.10.6 (/home/prts/ros2_galactic/ros2-linux/share/ament_lint_auto/cmake)
+[2.246s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.247s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.247s] -- Configured cppcheck include dirs: 
+[2.247s] -- Configured cppcheck exclude dirs and/or files: 
+[2.248s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.248s] -- Configured cpplint exclude dirs and/or files: 
+[2.248s] -- Added test 'lint_cmake' to check CMake code style
+[2.249s] -- Added test 'uncrustify' to check C / C++ code style
+[2.249s] -- Configured uncrustify additional arguments: 
+[2.249s] -- Added test 'xmllint' to check XML markup files
+[2.253s] -- Configuring done
+[2.265s] -- Generating done
+[2.267s] -- Build files have been written to: /home/prts/RBOT250/build/learning_tf2_cpp
+[2.276s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake /home/prts/RBOT250/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/prts/RBOT250/install/learning_tf2_cpp
+[2.280s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[2.345s] [35m[1mScanning dependencies of target static_turtle_tf2_broadcaster[0m
+[2.400s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[6.705s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[7.030s] [100%] Built target static_turtle_tf2_broadcaster
+[7.047s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[7.089s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp
+[7.105s] -- Install configuration: ""
+[7.105s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[7.107s] -- Set runtime path of "/home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[7.107s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[7.107s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[7.107s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[7.108s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[7.108s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[7.108s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[7.108s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[7.108s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[7.109s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[7.109s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[7.109s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[7.109s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[7.109s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[7.110s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[7.110s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[7.115s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp

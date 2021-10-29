@@ -1,0 +1,8 @@
+[01m[K/home/prts/RBOT250/src/my_cpp_py_pkg/src/cpp_node.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kmath: No such file or directory
+   11 | #include [01;31m[K<math>[m[K
+      |          [01;31m[K^~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cpp_executable.dir/build.make:63: CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:135: CMakeFiles/cpp_executable.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

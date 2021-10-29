@@ -1,0 +1,28 @@
+[0.022s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[0.088s] [35m[1mScanning dependencies of target turtle_tf2_broadcaster[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[8.437s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[8.929s] [100%] Built target turtle_tf2_broadcaster
+[8.940s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --build /home/prts/RBOT250/build/learning_tf2_cpp -- -j4 -l4
+[8.988s] Invoking command in '/home/prts/RBOT250/build/learning_tf2_cpp': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp
+[9.005s] -- Install configuration: ""
+[9.005s] -- Installing: /home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[9.008s] -- Set runtime path of "/home/prts/RBOT250/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[9.008s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[9.009s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[9.009s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[9.009s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[9.009s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[9.009s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[9.010s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[9.010s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[9.010s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[9.010s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[9.011s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[9.011s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[9.012s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[9.012s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[9.012s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[9.012s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[9.013s] -- Up-to-date: /home/prts/RBOT250/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[9.013s] Invoked command in '/home/prts/RBOT250/build/learning_tf2_cpp' returned '0': /usr/bin/cmake --install /home/prts/RBOT250/build/learning_tf2_cpp
